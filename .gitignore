@@ -1,0 +1,8 @@
+node_modules/
+dist/
+coverage/
+.env
+.env.local
+server/data/messages.jsonl
+*.log
+.DS_Store

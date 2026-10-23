@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Building an API Security Auditor</title><desc id="desc">Editorial cover about testing APIs and reviewing security findings.</desc>
+  <rect width="1200" height="630" fill="#f0e9e7"/>
+  <rect width="16" height="630" fill="#a5484d"/>
+  <text x="82" y="88" fill="#92565b" font-family="Arial, Helvetica, sans-serif" font-size="21" letter-spacing="5">PROJECT NOTES / 03</text>
+  <text x="82" y="203" fill="#2d2224" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="700">API Security</text>
+  <text x="82" y="280" fill="#2d2224" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="700">Auditor Pro</text>
+  <text x="82" y="350" fill="#7e5e61" font-family="Arial, Helvetica, sans-serif" font-size="25">Turning security checks into usable findings.</text>
+  <rect x="790" y="140" width="300" height="330" rx="8" fill="#fbf8f7" stroke="#d8c5c3" stroke-width="2"/>
+  <rect x="820" y="170" width="240" height="42" rx="4" fill="#f2e2e0"/>
+  <path d="M841 190 l7 7 14-15" fill="none" stroke="#a5484d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="875" y="184" width="150" height="11" rx="3" fill="#bfa5a5"/>
+  <rect x="820" y="232" width="240" height="42" rx="4" fill="#f2e2e0"/>
+  <circle cx="853" cy="253" r="9" fill="none" stroke="#a5484d" stroke-width="3"/><path d="M847 247 L859 259 M859 247 L847 259" stroke="#a5484d" stroke-width="2"/>
+  <rect x="875" y="247" width="125" height="11" rx="3" fill="#bfa5a5"/>
+  <rect x="820" y="294" width="240" height="42" rx="4" fill="#f2e2e0"/>
+  <path d="M842 316 l7 7 14-15" fill="none" stroke="#a5484d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="875" y="308" width="155" height="11" rx="3" fill="#bfa5a5"/>
+  <rect x="820" y="373" width="240" height="62" rx="4" fill="#a5484d"/>
+  <text x="940" y="411" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">SCAN REPORT</text>
+  <text x="82" y="566" fill="#987b7b" font-family="Arial, Helvetica, sans-serif" font-size="19">HAMID ALHAJ  ·  DEVELOPER NOTES</text>
+</svg>

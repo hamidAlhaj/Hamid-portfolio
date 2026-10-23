@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Express.js or NestJS?</title><desc id="desc">Editorial cover comparing two Node.js backend frameworks.</desc>
+  <rect width="1200" height="630" fill="#e9eee9"/>
+  <rect x="0" y="0" width="16" height="630" fill="#39695a"/>
+  <text x="82" y="88" fill="#49665d" font-family="Arial, Helvetica, sans-serif" font-size="21" letter-spacing="5">BACKEND NOTES / 01</text>
+  <text x="82" y="205" fill="#17231f" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="700">Express.js</text>
+  <text x="82" y="300" fill="#557168" font-family="Arial, Helvetica, sans-serif" font-size="45" font-weight="400">or</text>
+  <text x="82" y="395" fill="#17231f" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="700">NestJS?</text>
+  <path d="M760 122 H1115 M760 180 H1030 M760 238 H1085" stroke="#bdc9c1" stroke-width="3"/>
+  <rect x="760" y="295" width="355" height="180" rx="9" fill="#d8e3dc" stroke="#b8c8be" stroke-width="2"/>
+  <rect x="790" y="325" width="92" height="120" rx="4" fill="#39695a"/>
+  <text x="836" y="398" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">ex</text>
+  <rect x="900" y="325" width="184" height="16" rx="3" fill="#9aafa4"/>
+  <rect x="900" y="356" width="150" height="16" rx="3" fill="#9aafa4"/>
+  <rect x="900" y="387" width="170" height="16" rx="3" fill="#9aafa4"/>
+  <text x="760" y="530" fill="#49665d" font-family="Arial, Helvetica, sans-serif" font-size="23">Structure vs. flexibility</text>
+  <text x="82" y="566" fill="#75877f" font-family="Arial, Helvetica, sans-serif" font-size="19">HAMID ALHAJ  ·  DEVELOPER NOTES</text>
+</svg>

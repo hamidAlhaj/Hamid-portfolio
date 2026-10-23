@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Authorization is more than a role check</title><desc id="desc">Editorial illustration of a resource access rule.</desc>
+  <rect width="1200" height="630" fill="#e8ecef"/>
+  <rect width="16" height="630" fill="#315f7b"/>
+  <text x="82" y="88" fill="#436779" font-family="Arial, Helvetica, sans-serif" font-size="21" letter-spacing="5">API SECURITY / 02</text>
+  <text x="82" y="205" fill="#17232c" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700">Role check?</text>
+  <text x="82" y="282" fill="#17232c" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700">Not enough.</text>
+  <text x="82" y="350" fill="#5f737e" font-family="Arial, Helvetica, sans-serif" font-size="25">Verify access to the resource, too.</text>
+  <rect x="785" y="145" width="280" height="330" rx="8" fill="#f4f6f7" stroke="#b8c7ce" stroke-width="2"/>
+  <rect x="818" y="181" width="215" height="48" rx="5" fill="#d9e5ea"/>
+  <text x="925" y="211" text-anchor="middle" fill="#315f7b" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">REQUEST</text>
+  <path d="M925 229 V265" stroke="#6b8795" stroke-width="3"/>
+  <path d="M916 256 L925 266 L934 256" fill="none" stroke="#6b8795" stroke-width="3" stroke-linecap="round"/>
+  <rect x="818" y="267" width="215" height="48" rx="5" fill="#d9e5ea"/>
+  <text x="925" y="297" text-anchor="middle" fill="#315f7b" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">ROLE + PERMISSION</text>
+  <path d="M925 315 V351" stroke="#6b8795" stroke-width="3"/>
+  <path d="M916 342 L925 352 L934 342" fill="none" stroke="#6b8795" stroke-width="3" stroke-linecap="round"/>
+  <rect x="818" y="353" width="215" height="70" rx="5" fill="#315f7b"/>
+  <text x="925" y="381" text-anchor="middle" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">RESOURCE</text>
+  <text x="925" y="404" text-anchor="middle" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="18">OWNERSHIP</text>
+  <text x="82" y="566" fill="#71838c" font-family="Arial, Helvetica, sans-serif" font-size="19">HAMID ALHAJ  ·  DEVELOPER NOTES</text>
+</svg>
