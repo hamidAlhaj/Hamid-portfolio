@@ -168,7 +168,12 @@ const technologyMarks: Record<
     background: "#302e18",
   },
   HTML5: { mark: "5", slug: "html5", color: "#e34f26", background: "#34231d" },
-  CSS3: { mark: "3", slug: "css3", color: "#1572b6", background: "#1a2935" },
+  CSS3: {
+    mark: "CSS",
+    slug: "css",
+    color: "#639",
+    background: "#291e35",
+  },
   Vite: { mark: "V", slug: "vite", color: "#a78bfa", background: "#272238" },
   "Node.js": {
     mark: "N",
@@ -242,7 +247,7 @@ function TechIcon({ name }: { name: string }) {
   };
   return (
     <span
-      className="tech-icon"
+      className={`tech-icon${!logo.slug ? " no-logo" : ""}`}
       style={{ color: logo.color, backgroundColor: logo.background }}
       aria-hidden="true"
     >
@@ -790,14 +795,63 @@ function App() {
                   <span className="availability-dot" /> {profile.availability}
                 </div>
                 <div className="contact-links">
-                  <a href={profile.github} target="_blank" rel="noreferrer">
-                    <Icon name="github" size={17} /> GitHub{" "}
+                  <a href="mailto:hamid2alden2alhaj@gmail.com">
+                    <Icon name="mail" size={17} />
+                    hamid2alden2alhaj@gmail.com
+                  </a>
+
+                  <a
+                    href={profile.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Icon name="linkedin" size={17} />
+                    LinkedIn
                     <Icon name="arrow" size={13} />
                   </a>
-                  <a href={profile.linkedin} target="_blank" rel="noreferrer">
-                    <Icon name="linkedin" size={17} /> LinkedIn{" "}
+
+                  <a
+                    href={profile.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Icon name="github" size={17} />
+                    GitHub
                     <Icon name="arrow" size={13} />
                   </a>
+                </div>
+
+                <div className="contact-socials">
+                  <p className="contact-socials-label">Elsewhere online</p>
+
+                  <div className="contact-socials-links">
+                    <a
+                      href="https://x.com/HamidAlhaj_JS"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      X / Twitter
+                      <Icon name="external" size={13} />
+                    </a>
+
+                    <a
+                      href="https://www.youtube.com/channel/UCG1YaggAjTSmPwWp1W5UmVA"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      YouTube
+                      <Icon name="external" size={13} />
+                    </a>
+
+                    <a
+                      href="https://www.instagram.com/hamidalhaj_/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Instagram
+                      <Icon name="external" size={13} />
+                    </a>
+                  </div>
                 </div>
                 <div className="contact-decoration" aria-hidden="true">
                   HAL<span>_</span>
@@ -871,7 +925,7 @@ function App() {
                   <Icon name="send" size={16} />
                 </button>
                 <p className="form-footnote">
-                  Your message is sent to the portfolio API for local storage.
+                  Your message is sent to the portfolio API .
                 </p>
               </form>
             </div>
@@ -882,7 +936,7 @@ function App() {
       <footer className="site-footer">
         <div className="container footer-inner">
           <a href="#home" className="footer-brand">
-            ha<span>.</span>
+            <span>Hamid</span>
           </a>
           <p>Designed and built by Hamid Alhaj.</p>
           <a className="back-to-top" href="#home">
