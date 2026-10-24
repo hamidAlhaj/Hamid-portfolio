@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 990 950" role="img" aria-labelledby="title">
+  <title id="title">Finora icon</title>
+  <defs>
+    <linearGradient id="finora-teal" x1="310" y1="720" x2="910" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00AA9F"/><stop offset=".6" stop-color="#00BFB3"/><stop offset="1" stop-color="#00C7B8"/>
+    </linearGradient>
+    <linearGradient id="finora-fold" x1="420" y1="535" x2="530" y2="825" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#006565"/><stop offset=".52" stop-color="#008E88"/><stop offset="1" stop-color="#00B8AA"/>
+    </linearGradient>
+    <linearGradient id="finora-navy" x1="249" y1="1075" x2="794" y2="704" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#032047"/><stop offset="1" stop-color="#104277"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(-180 -216)">
+    <path fill="url(#finora-navy)" d="M192 993C202 946 224 910 271 869L469 703C486 690 508 687 536 687H906C893 825 813 927 664 927H596C547 927 521 936 490 963L270 1152C216 1123 189 1065 192 993Z"/>
+    <path fill="url(#finora-fold)" d="M192 607C192 570 202 539 227 510L465 291C510 251 565 230 626 230H1153C1131 403 1035 536 865 536H683C657 536 641 544 619 564L270 871C226 910 204 949 192 993Z"/>
+    <path fill="url(#finora-teal)" d="M192 771V607C192 570 202 539 227 510L465 291C510 251 565 230 626 230H1153C1131 403 1035 536 865 536H647C476 529 238 608 192 771Z"/>
+  </g>
+</svg>
+
