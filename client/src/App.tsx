@@ -15,8 +15,17 @@ const names: Record<string, string> = {
   journey: "Experience",
   contact: "Contact",
 };
+// These project icons ship with the frontend, so cards and detail pages never
+// depend on GitHub image requests or older CMS/snapshot cover URLs.
+const localProjectCovers: Record<string, string> = {
+  finora: "/images/projects/finora.svg",
+  elibrary: "/images/projects/elibrary.png",
+  "api-security-auditor": "/images/projects/api-auditor.svg",
+};
+
 // Repository social cards are not project artwork; show the project name instead.
-function projectCoverUrl(value: unknown): string {
+function projectCoverUrl(value: unknown, slug: string): string {
+  if (localProjectCovers[slug]) return localProjectCovers[slug];
   if (typeof value !== "string") return "";
   const source = value.trim();
   if (!source) return "";
@@ -96,7 +105,7 @@ function ProjectCard({
   return (
     <article className={`project-card ${featured ? "featured-project" : ""}`}>
       <a className="project-media" href={`/projects/${item.slug}`}>
-        <Image src={projectCoverUrl(p.imageUrl)} alt={p.name} />
+        <Image src={projectCoverUrl(p.imageUrl, item.slug)} alt={p.name} />
         <span className="media-open">
           <Arrow />
         </span>
@@ -676,7 +685,7 @@ function Detail({ item, kind }: { item: Entry; kind: string }) {
       </header>
       <Image
         className="detail-cover"
-        src={project ? projectCoverUrl(d.imageUrl) : d.coverUrl}
+        src={project ? projectCoverUrl(d.imageUrl, item.slug) : d.coverUrl}
         alt={d.name || d.title}
       />
       <div className="detail-body surface">
