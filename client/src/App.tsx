@@ -1,6 +1,6 @@
 import { useEffect, useState, type FormEvent, type ReactNode } from "react";
 import Markdown from "react-markdown";
-import { apiGet, apiPost } from "./api";
+import { loadPortfolio, apiPost } from "./api";
 import { TechIcon } from "./icons";
 import type { Entry, Portfolio } from "./models";
 const email = "hamid2alden2alhaj@gmail.com";
@@ -282,7 +282,7 @@ export default function App() {
   useEffect(() => {
     let active = true;
     setError(false);
-    apiGet<Portfolio>("/portfolio")
+    loadPortfolio()
       .then((p) => {
         if (active) {
           if (!p.profile || !p.settings) throw new Error("Content unavailable");

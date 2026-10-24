@@ -1,4 +1,15 @@
 const API_BASE = (import.meta.env.VITE_API_URL || "/api").replace(/\/$/, "");
+import type { Portfolio } from "./models";
+
+// Snapshot deployments serve published content with the static site. A sleeping
+// API must not block the homepage or shareable project/article pages.
+export async function loadPortfolio(): Promise<Portfolio> {
+  if (import.meta.env.VITE_CONTENT_MODE !== "snapshot")
+    return apiGet<Portfolio>("/portfolio");
+  const response = await fetch(`${import.meta.env.BASE_URL}portfolio.json`);
+  if (!response.ok) throw new Error("Published content unavailable");
+  return response.json();
+}
 export async function request<T>(
   path: string,
   options?: RequestInit,

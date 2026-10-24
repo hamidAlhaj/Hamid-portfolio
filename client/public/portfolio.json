@@ -1,0 +1,483 @@
+{
+  "profile": {
+    "id": "992ca4d6-da40-4d5c-9600-9d298f01128c",
+    "slug": "main",
+    "position": 0,
+    "published": true,
+    "data": {
+      "name": "Hamid Alhaj",
+      "role": "Full-Stack Developer",
+      "about": "I’m an Informatics Engineering graduate focused on full-stack development, backend systems, and API security. I value readable code, practical projects, and working well with a team.",
+      "cvUrl": "/cv.pdf",
+      "email": "hamid2alden2alhaj@gmail.com",
+      "summary": "I build clean user experiences and dependable APIs with React, TypeScript, Node.js, and NestJS. I am especially interested in backend engineering and API security.",
+      "imageUrl": "",
+      "location": "Salamiya, Syria",
+      "socialLinks": [
+        {
+          "href": "https://github.com/hamidAlhaj",
+          "label": "GitHub"
+        },
+        {
+          "href": "https://www.linkedin.com/in/hamid-alhaj-63437b410/",
+          "label": "LinkedIn"
+        },
+        {
+          "href": "https://x.com/HamidAlhaj_JS",
+          "label": "X"
+        },
+        {
+          "href": "https://www.youtube.com/channel/UCG1YaggAjTSmPwWp1W5UmVA",
+          "label": "YouTube"
+        },
+        {
+          "href": "https://www.instagram.com/hamidalhaj_/",
+          "label": "Instagram"
+        }
+      ],
+      "availability": "Open to junior developer opportunities",
+      "introduction": "Hi, I’m Hamid. I build web apps and APIs."
+    }
+  },
+  "settings": {
+    "id": "906b27b6-6faa-459a-959b-d986c595801a",
+    "slug": "main",
+    "position": 0,
+    "published": true,
+    "data": {
+      "sections": [
+        {
+          "id": "projects",
+          "visible": true
+        },
+        {
+          "id": "skills",
+          "visible": true
+        },
+        {
+          "id": "about",
+          "visible": true
+        },
+        {
+          "id": "articles",
+          "visible": true
+        },
+        {
+          "id": "journey",
+          "visible": true
+        },
+        {
+          "id": "contact",
+          "visible": true
+        }
+      ],
+      "background": "linear-gradient(135deg, #3d00b8 0%, #21dda2 100%)"
+    }
+  },
+  "projects": [
+    {
+      "id": "a5573882-ad00-4068-a35e-eb8de13c1949",
+      "slug": "api-security-auditor",
+      "position": 0,
+      "published": true,
+      "data": {
+        "name": "API Security Auditor Pro",
+        "tags": [
+          "React",
+          "TypeScript",
+          "Vite",
+          "Flask",
+          "SQLite",
+          "API Security"
+        ],
+        "status": "Completed",
+        "content": "- Request builder with multiple authentication methods\n- Checks for SQL injection, IDOR/BOLA, broken authentication, and missing rate limits\n- Secure sample API with role-based access and ownership checks",
+        "gallery": [],
+        "liveUrl": "",
+        "category": "Security",
+        "featured": true,
+        "imageUrl": "https://raw.githubusercontent.com/hamidAlhaj/API-Auditor-Pro/main/frontend/favicon.svg",
+        "subtitle": "Graduation project · API security",
+        "githubUrl": "https://github.com/hamidAlhaj/API-Auditor-Pro",
+        "solutions": "",
+        "challenges": "",
+        "description": "A security-focused toolkit for testing APIs, comparing vulnerable and protected endpoints, and making common weaknesses easier to understand.",
+        "contribution": ""
+      }
+    },
+    {
+      "id": "76a1688b-6611-44d2-870a-9bc76d2c45b5",
+      "slug": "finora",
+      "position": 1,
+      "published": true,
+      "data": {
+        "name": "Finora",
+        "tags": [
+          "NestJS",
+          "TypeScript",
+          "MongoDB",
+          "REST API"
+        ],
+        "status": "Completed",
+        "content": "- Modular backend organized around categories, transactions, budgets, and reports\n- Collaborative development with a shared team codebase\n- Practice with controllers, services, modules, and API integration",
+        "gallery": [],
+        "liveUrl": "",
+        "category": "Full-stack",
+        "featured": true,
+        "imageUrl": "https://raw.githubusercontent.com/Yazan-Shartooh/Team-4-Finora/main/client/public/finora-icon.svg",
+        "subtitle": "Team project · Budget management",
+        "githubUrl": "https://github.com/Yazan-Shartooh/Team-4-Finora",
+        "solutions": "",
+        "challenges": "",
+        "description": "A personal finance application for organizing income and expenses, managing budgets, and understanding spending through a structured backend.",
+        "contribution": ""
+      }
+    },
+    {
+      "id": "9af4f431-fb92-48db-8ad7-c12585f7e584",
+      "slug": "mystery-room",
+      "position": 2,
+      "published": true,
+      "data": {
+        "name": "Mystery Room",
+        "tags": [
+          "React",
+          "JavaScript",
+          "Express.js",
+          "REST API"
+        ],
+        "status": "Completed",
+        "content": "- Led backend setup and integrated the first puzzle with the frontend\n- Implemented API behavior for hints and game progression\n- Helped coordinate changes through a protected main branch",
+        "gallery": [],
+        "liveUrl": "https://hamidalhaj.github.io/mystery-room-b4f/",
+        "category": "Full-stack",
+        "featured": true,
+        "imageUrl": "https://opengraph.githubassets.com/1/hamidAlhaj/mystery-room-b4f",
+        "subtitle": "Team project · Interactive puzzle game",
+        "githubUrl": "https://github.com/hamidAlhaj/mystery-room-b4f",
+        "solutions": "",
+        "challenges": "",
+        "description": "A browser-based mystery experience where players solve puzzles and progress through a connected game flow.",
+        "contribution": ""
+      }
+    },
+    {
+      "id": "f099679e-e29c-4016-a04a-3a1446a0ccba",
+      "slug": "decisionlab",
+      "position": 3,
+      "published": true,
+      "data": {
+        "name": "DecisionLab",
+        "tags": [
+          "React",
+          "TypeScript",
+          "Vite"
+        ],
+        "status": "In progress",
+        "content": "- Frontend workstream covering the app shell and navigation\n- Reusable UI structure for a growing application\n- Type-safe React components and project organization",
+        "gallery": [],
+        "liveUrl": "",
+        "category": "Frontend",
+        "featured": false,
+        "imageUrl": "https://opengraph.githubassets.com/1/Fadi-Habil17/Decision-Lab",
+        "subtitle": "Team project · Decision-making workspace",
+        "githubUrl": "https://github.com/Fadi-Habil17/Decision-Lab",
+        "solutions": "",
+        "challenges": "",
+        "description": "A collaborative workspace concept focused on structuring decisions and presenting information in a clear, approachable interface.",
+        "contribution": ""
+      }
+    },
+    {
+      "id": "237dbcf5-7efc-4307-875d-ea8a6b78c769",
+      "slug": "note-taking",
+      "position": 4,
+      "published": true,
+      "data": {
+        "name": "Note-taking App",
+        "tags": [
+          "React",
+          "JavaScript",
+          "CSS",
+          "localStorage"
+        ],
+        "status": "Completed",
+        "content": "- Create and manage notes in a focused interface\n- Persist notes in the browser with localStorage\n- Built and published as a small standalone web project",
+        "gallery": [],
+        "liveUrl": "https://hamidalhaj.github.io/Note-taking-react/",
+        "category": "Frontend",
+        "featured": false,
+        "imageUrl": "https://opengraph.githubassets.com/1/hamidAlhaj/Note-taking-react",
+        "subtitle": "Personal project · Productivity",
+        "githubUrl": "https://github.com/hamidAlhaj/Note-taking-react",
+        "solutions": "",
+        "challenges": "",
+        "description": "A lightweight notes application built to practice component-driven React development and persistent browser storage.",
+        "contribution": ""
+      }
+    },
+    {
+      "id": "52f94894-b583-459a-ad34-3fe95089cc9d",
+      "slug": "elibrary",
+      "position": 5,
+      "published": true,
+      "data": {
+        "name": "eLibrary",
+        "tags": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Gutendex API",
+          "localStorage"
+        ],
+        "status": "Completed",
+        "content": "- Search and browse book information using the Gutendex API\n- Save selected books locally in the browser\n- Practise asynchronous API requests and client-side state persistence",
+        "gallery": [],
+        "liveUrl": "",
+        "category": "Frontend",
+        "featured": false,
+        "imageUrl": "https://raw.githubusercontent.com/hamidAlhaj/eLibrary/main/logo.png",
+        "subtitle": "Personal project · Book discovery",
+        "githubUrl": "https://github.com/hamidAlhaj/eLibrary",
+        "solutions": "",
+        "challenges": "",
+        "description": "A responsive digital-library website built with HTML, CSS, and JavaScript. It fetches book information from the Gutendex API and supports keeping selected books in the browser.",
+        "contribution": ""
+      }
+    }
+  ],
+  "skills": [
+    {
+      "id": "f5c67a18-93ed-4cf7-ab14-ce3bdf00d67a",
+      "slug": "frontend",
+      "position": 0,
+      "published": true,
+      "data": {
+        "note": "Interfaces that are responsive, accessible, and maintainable.",
+        "title": "Frontend",
+        "skills": [
+          {
+            "icon": "React",
+            "name": "React",
+            "imageUrl": ""
+          },
+          {
+            "icon": "TypeScript",
+            "name": "TypeScript",
+            "imageUrl": ""
+          },
+          {
+            "icon": "JavaScript",
+            "name": "JavaScript",
+            "imageUrl": ""
+          },
+          {
+            "icon": "HTML5",
+            "name": "HTML5",
+            "imageUrl": ""
+          },
+          {
+            "icon": "CSS3",
+            "name": "CSS3",
+            "imageUrl": ""
+          },
+          {
+            "icon": "Vite",
+            "name": "Vite",
+            "imageUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "bc5506dd-9dc5-4fd7-8bd1-d32316ab9791",
+      "slug": "backend",
+      "position": 1,
+      "published": true,
+      "data": {
+        "note": "Structured server-side logic and APIs.",
+        "title": "Backend",
+        "skills": [
+          {
+            "icon": "Node.js",
+            "name": "Node.js",
+            "imageUrl": ""
+          },
+          {
+            "icon": "Express.js",
+            "name": "Express.js",
+            "imageUrl": ""
+          },
+          {
+            "icon": "NestJS",
+            "name": "NestJS",
+            "imageUrl": ""
+          },
+          {
+            "icon": "REST APIs",
+            "name": "REST APIs",
+            "imageUrl": ""
+          },
+          {
+            "icon": "MongoDB",
+            "name": "MongoDB",
+            "imageUrl": ""
+          },
+          {
+            "icon": "SQLite",
+            "name": "SQLite",
+            "imageUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "76a2070a-421f-4f1f-a3ab-b3bce30d1235",
+      "slug": "security-workflow",
+      "position": 2,
+      "published": true,
+      "data": {
+        "note": "Practical testing, authentication, and team collaboration.",
+        "title": "Security & workflow",
+        "skills": [
+          {
+            "icon": "JWT",
+            "name": "JWT",
+            "imageUrl": ""
+          },
+          {
+            "icon": "API Security",
+            "name": "API Security",
+            "imageUrl": ""
+          },
+          {
+            "icon": "Postman",
+            "name": "Postman",
+            "imageUrl": ""
+          },
+          {
+            "icon": "Git",
+            "name": "Git",
+            "imageUrl": ""
+          },
+          {
+            "icon": "GitHub",
+            "name": "GitHub",
+            "imageUrl": ""
+          },
+          {
+            "icon": "Python",
+            "name": "Python",
+            "imageUrl": ""
+          }
+        ]
+      }
+    }
+  ],
+  "articles": [
+    {
+      "id": "802595c4-30ac-4dfb-8e67-c06dd4bb8214",
+      "slug": "express-vs-nestjs",
+      "position": 0,
+      "published": true,
+      "data": {
+        "tags": [
+          "Express.js",
+          "NestJS",
+          "TypeScript"
+        ],
+        "title": "Express.js or NestJS? A practical perspective",
+        "topic": "Backend development",
+        "content": "I started learning Express.js more than a year ago. Its minimal approach gave me room to understand routes, middleware, and how an HTTP API works without hiding too much behind a framework.\n\nWhile working with NestJS in the Bytes4Future Bootcamp, the biggest difference for me was structure. Modules, controllers, and services make responsibilities easier to locate and help a team agree on a consistent project layout.\n\nI do not see this as a simple winner-versus-loser comparison. Express.js is still a solid choice when flexibility and a small footprint matter. NestJS brings useful conventions when an application or team needs more structure. The right choice depends on the project, the team, and the trade-offs you are willing to maintain.",
+        "excerpt": "What changes when you move from a lightweight, flexible framework to a more structured backend architecture?",
+        "coverUrl": "/images/articles/express-vs-nest.svg",
+        "linkedinUrl": "",
+        "publishedAt": null
+      },
+      "readTime": "1 min read"
+    },
+    {
+      "id": "3c080480-0a9d-41ac-9d0f-20d8e0f75878",
+      "slug": "authorization-is-more-than-roles",
+      "position": 1,
+      "published": true,
+      "data": {
+        "tags": [
+          "API Security",
+          "Authorization",
+          "NestJS"
+        ],
+        "title": "Authorization is more than a role check",
+        "topic": "API security",
+        "content": "Checking whether a user is signed in answers only part of the question. A role check tells us what a class of users may do, but it does not automatically prove that this particular user may access a particular record.\n\nFor example, a user with permission to view projects should not automatically be able to read every project in the database. The backend should verify workspace membership or ownership at the resource level, not rely only on a button being hidden in the frontend.\n\nA safer API combines authentication, role or permission checks, resource ownership, input validation, and consistent tests for allowed and denied cases. These controls solve different problems, so they should be designed together.",
+        "excerpt": "A user can have the right role and still be trying to access a record they do not own. Authorization needs more context.",
+        "coverUrl": "/images/articles/api-authorization.svg",
+        "linkedinUrl": "",
+        "publishedAt": null
+      },
+      "readTime": "1 min read"
+    },
+    {
+      "id": "baac2ee7-57c7-4808-9ede-9852b3c0ef98",
+      "slug": "building-api-security-auditor",
+      "position": 2,
+      "published": true,
+      "data": {
+        "tags": [
+          "OWASP API Top 10",
+          "Testing",
+          "Security"
+        ],
+        "title": "Building an API Security Auditor",
+        "topic": "Project notes",
+        "content": "For my graduation project, I worked on API Security Auditor Pro to make common API weaknesses easier to test and explain. The project brings request building, collections, scan history, and report generation into one workflow.\n\nThe checks focus on issues such as SQL injection, broken object-level authorization, weak authentication, mass assignment, and missing rate limits. A key design goal is to show why a finding matters, not simply mark a request as failed.\n\nThe project also taught me to distinguish a useful security signal from a confirmed vulnerability. Automated checks can help prioritize investigation, but findings still need careful verification and clear remediation guidance.",
+        "excerpt": "Lessons from turning API security concepts into a graduation project with repeatable checks and readable reports.",
+        "coverUrl": "/images/articles/api-auditor.svg",
+        "linkedinUrl": "",
+        "publishedAt": null
+      },
+      "readTime": "1 min read"
+    }
+  ],
+  "journey": [
+    {
+      "id": "21580019-549a-473f-98c2-1c99a210b824",
+      "slug": "journey-0",
+      "position": 0,
+      "published": true,
+      "data": {
+        "kind": "education",
+        "title": "Informatics Engineering Graduate",
+        "period": "University 2021-2026",
+        "description": "Software-focused studies, team projects, and a graduation project centered on API security. The graduation project was rated Excellent after defense.",
+        "organization": "Arab University for Science and Technology (AUST)"
+      }
+    },
+    {
+      "id": "6bf3c7bf-6c20-4a27-abb9-471e3db0ed47",
+      "slug": "journey-1",
+      "position": 1,
+      "published": true,
+      "data": {
+        "kind": "bootcamp",
+        "title": "Full-Stack Development Bootcamp",
+        "period": "Bytes4Future Syria 2026",
+        "description": "Working with React, TypeScript, Express.js, NestJS, team workflows, Git, and problem-solving through hands-on projects.",
+        "organization": "Bytes4Future Syria"
+      }
+    },
+    {
+      "id": "c68646b5-99a3-4324-ab98-97d28cc3b8eb",
+      "slug": "journey-2",
+      "position": 2,
+      "published": true,
+      "data": {
+        "kind": "project",
+        "title": "Backend engineering & application security",
+        "period": "Current focus",
+        "description": "Deepening NestJS and TypeScript skills while exploring API security patterns, authorization, and reliable application design.",
+        "organization": "Independent learning and project work"
+      }
+    }
+  ]
+}

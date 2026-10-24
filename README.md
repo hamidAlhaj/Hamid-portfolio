@@ -60,6 +60,8 @@ For hosting, serve **only client/dist** as the public frontend. Reverse-proxy `/
 
 Configure SPA fallback to `/index.html` for `/projects/*` and `/articles/*`; do not rewrite `/api/*` to HTML. There is no visitor-localhost fallback in the production frontend. Failed API loads show a retry action and direct email contact instead of stale content.
 
+For the free Render + Neon setup, follow [the Arabic deployment guide](docs/FREE-HOSTING-AR.md). Set `VITE_CONTENT_MODE=snapshot` on the public static site, and export your actual published content with `node scripts/export-portfolio.mjs` before committing and deploying. This makes public content independent of a sleeping free API. Contact submissions still use `VITE_API_URL`. After CMS edits, export and redeploy to update the public snapshot; local development defaults to live API content. `render.yaml` defines only the free static site and free Node service; the database is external Neon Free. Never seed over a migrated database to recreate edited content.
+
 ## 3. Local Studio — no login screen
 
 Copy `admin/.env.example` to `admin/.env`. Set:
@@ -90,6 +92,14 @@ The local Node process binds to loopback, checks Host, remote address and Origin
 - **Messages:** paginated inbox, full message detail, mark read/unread, delete with confirmation.
 
 Use the arrows in lists to reorder; orders save immediately. Content changes save using **Save changes**. Unsaved edits prompt before navigation. A published item is public immediately after saving. The publication date is metadata, not scheduled publishing; use the Published checkbox to control visibility.
+
+## Local image uploads
+
+When Local Studio connects to a loopback backend, image uploads are saved automatically in `client/public/images/uploads` with generated WebP filenames. This requires no S3 credentials. The local upload endpoint retains Host/Origin/CSRF checks and validates image bytes and size before saving. A project gallery supports multiple uploads, previews, reordering and removal; save the entry to persist its URLs and order.
+
+These are durable local project files, not remote storage. Include them in frontend builds/deployments and backups. Removing a gallery reference does not delete the physical file. When the backend URL is hosted, Local Studio uses the protected S3 upload endpoint instead. PDF uploads continue to require S3 or a manually supplied static CV path.
+
+See [the Arabic image guide](./docs/PROJECT-IMAGES-AR.md) for instructions.
 
 ## Upload storage
 

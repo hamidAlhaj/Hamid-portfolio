@@ -1,0 +1,40 @@
+# Two free Render services. PostgreSQL is external (Neon Free).
+# Export your real published content BEFORE pushing this file. See docs/FREE-HOSTING-AR.md.
+services:
+  - type: web
+    name: hamid-portfolio-api
+    runtime: node
+    plan: free
+    buildCommand: npm --prefix server ci --include=dev && npm --prefix server run db:generate && npm --prefix server run db:migrate && npm --prefix server run build
+    startCommand: npm --prefix server run start:prod
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_VERSION
+        value: '24'
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_URL
+        sync: false
+      - key: ADMIN_API_KEY
+        sync: false
+      - key: CLIENT_URL
+        sync: false
+  - type: web
+    name: hamid-portfolio
+    runtime: static
+    buildCommand: node scripts/export-portfolio.mjs --check && npm --prefix client ci --include=dev && npm --prefix client run build
+    staticPublishPath: client/dist
+    envVars:
+      - key: NODE_VERSION
+        value: '24'
+      - key: VITE_CONTENT_MODE
+        value: snapshot
+      - key: VITE_API_URL
+        sync: false
+    routes:
+      - type: rewrite
+        source: /projects/*
+        destination: /index.html
+      - type: rewrite
+        source: /articles/*
+        destination: /index.html
