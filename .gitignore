@@ -6,3 +6,8 @@ coverage/
 server/data/messages.jsonl
 *.log
 .DS_Store
+
+.test-dist/
+*.tsbuildinfo
+.env.*
+!.env.example
